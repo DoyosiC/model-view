@@ -1,5 +1,7 @@
 # 3D Turntable
 
+[![Viewer checks](https://github.com/DoyosiC/model-view/actions/workflows/ci.yml/badge.svg)](https://github.com/DoyosiC/model-view/actions/workflows/ci.yml)
+
 ブラウザだけで3Dモデルを確認できる、軽量なローカルビューアです。モデルを自動回転させながら、マウス操作で視点を変更したり、モデルの寸法を確認したりできます。
 
 ## Demo
@@ -67,6 +69,10 @@ python server.py
 - URL読み込みは、対象サーバーのCORS設定やファイル構成に依存します。
 - Three.jsはjsDelivr CDNから取得するため、初回表示時にインターネット接続が必要です。
 - 大きなモデルや高解像度テクスチャは、ブラウザのメモリ使用量が増える場合があります。
+
+## Development checks
+
+GitHub ActionsでPythonサーバーとJavaScriptの構文を確認しています。
 
 ## License
 
